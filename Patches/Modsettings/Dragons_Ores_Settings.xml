@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+<Operation Class="XmlExtensions.CreateSettings">
+    <modId>DragonsOresOriginal</modId> <!--String that XML Extensions can identify your mod with-->
+    <label>Dragon's Ores</label>
+    <settings>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Dragon's Ores</text>
+	    <font>Medium</font>
+	    <anchor>Middle</anchor>
+	</li>
+	<li Class="XmlExtensions.Setting.GapLine"/>
+	<li Class="XmlExtensions.Setting.SetColor">
+	    <color>(255,255,0)</color>
+	</li>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Setting changes requires a restart to take effect!</text>
+	    <anchor>Middle</anchor>
+	</li>
+
+	<li Class="XmlExtensions.Setting.SetColor"/>
+	<!-- Settings - Flammability -->
+	<li Class="XmlExtensions.Setting.Gap"/>
+	<li Class="XmlExtensions.Setting.Checkbox">
+        <key>DONonFlammableOres</key>
+	    <defaultValue>false</defaultValue>
+        <label>Non Flammable Ores</label>
+	    <tKey>DragonsOres_DOToggleFlammable</tKey>
+	    <tooltip>Sets flammability of all "Dragon's Ores" to 0, no more burning metal.</tooltip>
+	    <tKeyTip>DragonsOres_DOToggleFlammableTip</tKeyTip>
+    </li>
+	<!-- Settings - Enable Ores -->
+	<li Class="XmlExtensions.Setting.Gap"/>
+	<li Class="XmlExtensions.Setting.Checkbox">
+        <key>ToggleAmbut</key>
+	    <defaultValue>true</defaultValue>
+        <label>Enable Ambut Generation</label>
+	    <tKey>DragonsOres_ToggleAmbut</tKey>
+	    <tooltip>Allows Ambut to generate and be functional.</tooltip>
+	    <tKeyTip>DragonsOres_ToggleAmbutTip</tKeyTip>
+    </li>
+	<li Class="XmlExtensions.Setting.Checkbox">
+        <key>ToggleCryolium</key>
+	    <defaultValue>true</defaultValue>
+        <label>Enable Cryolium Generation</label>
+	    <tKey>DragonsOres_ToggleCryolium</tKey>
+	    <tooltip>Allows Cryolium to generate and be functional.</tooltip>
+	    <tKeyTip>DragonsOres_ToggleCryoliumTip</tKeyTip>
+	</li>
+	<li Class="XmlExtensions.Setting.Checkbox">
+        <key>ToggleCryppo</key>
+	    <defaultValue>true</defaultValue>
+        <label>Enable Cryppo Generation</label>
+	    <tKey>DragonsOres_ToggleCryppo</tKey>
+	    <tooltip>Allows Cryppo to generate and be functional.</tooltip>
+	    <tKeyTip>DragonsOres_ToggleCryppoTip</tKeyTip>
+	</li>
+	<li Class="XmlExtensions.Setting.Checkbox">
+        <key>ToggleHydrotherium</key>
+	    <defaultValue>true</defaultValue>
+        <label>Enable Hydrotherium Generation</label>
+	    <tKey>DragonsOres_ToggleHydrotherium</tKey>
+	    <tooltip>Allows Hydrotherium to generate and be functional.</tooltip>
+	    <tKeyTip>DragonsOres_ToggleHydrotheriumTip</tKeyTip>
+	</li>
+	<li Class="XmlExtensions.Setting.Checkbox">
+        <key>ToggleLoveli</key>
+	    <defaultValue>true</defaultValue>
+        <label>Enable Loveli Generation</label>
+	    <tKey>DragonsOres_ToggleLoveli</tKey>
+	    <tooltip>Allows Loveli to generate and be functional.</tooltip>
+	    <tKeyTip>DragonsOres_ToggleLoveliTip</tKeyTip>
+	</li>
+	<li Class="XmlExtensions.Setting.Checkbox">
+        <key>ToggleLuxorium</key>
+	    <defaultValue>true</defaultValue>
+        <label>Enable Luxorium Generation</label>
+	    <tKey>DragonsOres_ToggleLuxorium</tKey>
+	    <tooltip>Allows Luxorium to generate and be functional.</tooltip>
+	    <tKeyTip>DragonsOres_ToggleLuxoriumTip</tKeyTip>
+	</li>
+	<li Class="XmlExtensions.Setting.Checkbox">
+        <key>ToggleMythil</key>
+	    <defaultValue>true</defaultValue>
+        <label>Enable Mythil Generation</label>
+	    <tKey>DragonsOres_ToggleMythil</tKey>
+	    <tooltip>Allows Mythil to generate and be functional.</tooltip>
+	    <tKeyTip>DragonsOres_ToggleMythilTip</tKeyTip>
+	</li>
+	<li Class="XmlExtensions.Setting.Checkbox">
+        <key>TogglePenumbrite</key>
+	    <defaultValue>true</defaultValue>
+        <label>Enable Penumbrite Generation</label>
+	    <tKey>DragonsOres_TogglePenumbrite</tKey>
+	    <tooltip>Allows Penumbrite to generate and be functional.</tooltip>
+	    <tKeyTip>DragonsOres_TogglePenumbriteTip</tKeyTip>
+	</li>
+	<li Class="XmlExtensions.Setting.Checkbox">
+        <key>TogglePrimoss</key>
+	    <defaultValue>true</defaultValue>
+        <label>Enable Primoss Generation</label>
+	    <tKey>DragonsOres_TogglePrimoss</tKey>
+	    <tooltip>Allows Primoss to generate and be functional.</tooltip>
+	    <tKeyTip>DragonsOres_TogglePrimossTip</tKeyTip>
+	</li>
+	<li Class="XmlExtensions.Setting.Checkbox">
+        <key>ToggleSmarat</key>
+	    <defaultValue>true</defaultValue>
+        <label>Enable Smarat Generation</label>
+	    <tKey>DragonsOres_ToggleSmarat</tKey>
+	    <tooltip>Allows Smarat to generate and be functional.</tooltip>
+	    <tKeyTip>DragonsOres_ToggleSmaratTip</tKeyTip>
+	</li>
+	<li Class="XmlExtensions.Setting.Checkbox">
+        <key>ToggleVulcanite</key>
+	    <defaultValue>true</defaultValue>
+        <label>Enable Vulcanite Generation</label>
+	    <tKey>DragonsOres_ToggleVulcanite</tKey>
+	    <tooltip>Allows Vulcanite to generate and be functional.</tooltip>
+	    <tKeyTip>DragonsOres_ToggleVulcaniteTip</tKeyTip>
+	</li>
+	<li Class="XmlExtensions.Setting.ResetSettings"/>
+    </settings>
+</Operation>
+
+	<!-- Patching - Flammability -->
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>DragonsOresOriginal</modId>
+    <key>DONonFlammableOres</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Ambut"]/stuffProps/statFactors/Flammability</xpath>
+			<value>
+				<Flammability>0</Flammability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Cryolium"]/stuffProps/statFactors/Flammability</xpath>
+			<value>
+				<Flammability>0</Flammability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Cryppo"]/stuffProps/statFactors/Flammability</xpath>
+			<value>
+				<Flammability>0</Flammability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Hydrotherium"]/stuffProps/statFactors/Flammability</xpath>
+			<value>
+				<Flammability>0</Flammability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Loveli"]/stuffProps/statFactors/Flammability</xpath>
+			<value>
+				<Flammability>0</Flammability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Luxorium"]/stuffProps/statFactors/Flammability</xpath>
+			<value>
+				<Flammability>0</Flammability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Mythil"]/stuffProps/statFactors/Flammability</xpath>
+			<value>
+				<Flammability>0</Flammability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Penumbrite"]/stuffProps/statFactors/Flammability</xpath>
+			<value>
+				<Flammability>0</Flammability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Primoss"]/stuffProps/statFactors/Flammability</xpath>
+			<value>
+				<Flammability>0</Flammability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Smarat"]/stuffProps/statFactors/Flammability</xpath>
+			<value>
+				<Flammability>0</Flammability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Vulcanite"]/stuffProps/statFactors/Flammability</xpath>
+			<value>
+				<Flammability>0</Flammability>
+			</value>
+		</Operation>
+	</caseTrue>
+</Operation>
+
+	<!-- Patching - Enable Ores -->
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>DragonsOresOriginal</modId>
+    <key>ToggleAmbut</key>
+    <defaultValue>true</defaultValue>
+    <caseFalse>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Ambut"]/statBases/MarketValue</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Ambut"]/stuffProps/commonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Ambut"]/deepCommonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Ambut"]/deepLumpSizeRange</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Ambut"]/stuffProps/categories</xpath>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Ambut"]/tradeability</xpath>
+			<value>
+				<tradeability>None</tradeability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MineableAmbut"]/building</xpath>
+			<value>
+				<building>
+					<isNaturalRock>false</isNaturalRock>
+					<claimable>false</claimable>
+				</building>
+			</value>
+		</Operation>
+	</caseFalse>
+</Operation>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>DragonsOresOriginal</modId>
+    <key>ToggleCryolium</key>
+    <defaultValue>true</defaultValue>
+    <caseFalse>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Cryolium"]/statBases/MarketValue</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Cryolium"]/stuffProps/commonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Cryolium"]/deepCommonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Cryolium"]/deepLumpSizeRange</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Cryolium"]/stuffProps/categories</xpath>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Cryolium"]/tradeability</xpath>
+			<value>
+				<tradeability>None</tradeability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MineableCryolium"]/building</xpath>
+			<value>
+				<building>
+					<isNaturalRock>false</isNaturalRock>
+					<claimable>false</claimable>
+				</building>
+			</value>
+		</Operation>
+    </caseFalse>
+</Operation>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>DragonsOresOriginal</modId>
+    <key>ToggleCryppo</key>
+    <defaultValue>true</defaultValue>
+    <caseFalse>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Cryppo"]/statBases/MarketValue</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Cryppo"]/stuffProps/commonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Cryppo"]/deepCommonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Cryppo"]/deepLumpSizeRange</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Cryppo"]/stuffProps/categories</xpath>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Cryppo"]/tradeability</xpath>
+			<value>
+				<tradeability>None</tradeability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MineableCryppo"]/building</xpath>
+			<value>
+				<building>
+					<isNaturalRock>false</isNaturalRock>
+					<claimable>false</claimable>
+				</building>
+			</value>
+		</Operation>
+    </caseFalse>
+</Operation>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>DragonsOresOriginal</modId>
+    <key>ToggleHydrotherium</key>
+    <defaultValue>true</defaultValue>
+    <caseFalse>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Hydrotherium"]/statBases/MarketValue</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Hydrotherium"]/stuffProps/commonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Hydrotherium"]/deepCommonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Hydrotherium"]/deepLumpSizeRange</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Hydrotherium"]/stuffProps/categories</xpath>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Hydrotherium"]/tradeability</xpath>
+			<value>
+				<tradeability>None</tradeability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MineableHydrotherium"]/building</xpath>
+			<value>
+				<building>
+					<isNaturalRock>false</isNaturalRock>
+					<claimable>false</claimable>
+				</building>
+			</value>
+		</Operation>
+    </caseFalse>
+</Operation>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>DragonsOresOriginal</modId>
+    <key>ToggleLoveli</key>
+    <defaultValue>true</defaultValue>
+    <caseFalse>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Loveli"]/statBases/MarketValue</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Loveli"]/stuffProps/commonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Loveli"]/deepCommonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Loveli"]/deepLumpSizeRange</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Loveli"]/stuffProps/categories</xpath>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Loveli"]/tradeability</xpath>
+			<value>
+				<tradeability>None</tradeability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MineableLoveli"]/building</xpath>
+			<value>
+				<building>
+					<isNaturalRock>false</isNaturalRock>
+					<claimable>false</claimable>
+				</building>
+			</value>
+		</Operation>
+    </caseFalse>
+</Operation>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>DragonsOresOriginal</modId>
+    <key>ToggleLuxorium</key>
+    <defaultValue>true</defaultValue>
+    <caseFalse>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Luxorium"]/statBases/MarketValue</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Luxorium"]/stuffProps/commonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Luxorium"]/deepCommonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Luxorium"]/deepLumpSizeRange</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Luxorium"]/stuffProps/categories</xpath>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Luxorium"]/tradeability</xpath>
+			<value>
+				<tradeability>None</tradeability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MineableLuxorium"]/building</xpath>
+			<value>
+				<building>
+					<isNaturalRock>false</isNaturalRock>
+					<claimable>false</claimable>
+				</building>
+			</value>
+		</Operation>
+    </caseFalse>
+</Operation>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>DragonsOresOriginal</modId>
+    <key>ToggleMythil</key>
+    <defaultValue>true</defaultValue>
+    <caseFalse>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Mythil"]/statBases/MarketValue</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Mythil"]/stuffProps/commonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Mythil"]/deepCommonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Mythil"]/deepLumpSizeRange</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Mythil"]/stuffProps/categories</xpath>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Mythil"]/tradeability</xpath>
+			<value>
+				<tradeability>None</tradeability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MineableAndrium"]/building</xpath>
+			<value>
+				<building>
+					<isNaturalRock>false</isNaturalRock>
+					<claimable>false</claimable>
+				</building>
+			</value>
+		</Operation>
+    </caseFalse>
+</Operation>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>DragonsOresOriginal</modId>
+    <key>TogglePenumbrite</key>
+    <defaultValue>true</defaultValue>
+    <caseFalse>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Penumbrite"]/statBases/MarketValue</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Penumbrite"]/stuffProps/commonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Penumbrite"]/deepCommonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Penumbrite"]/deepLumpSizeRange</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Penumbrite"]/stuffProps/categories</xpath>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Penumbrite"]/tradeability</xpath>
+			<value>
+				<tradeability>None</tradeability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MineablePenumbrite"]/building</xpath>
+			<value>
+				<building>
+					<isNaturalRock>false</isNaturalRock>
+					<claimable>false</claimable>
+				</building>
+			</value>
+		</Operation>
+    </caseFalse>
+</Operation>
+
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>DragonsOresOriginal</modId>
+    <key>TogglePrimoss</key>
+    <defaultValue>true</defaultValue>
+    <caseFalse>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Primoss"]/statBases/MarketValue</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Primoss"]/stuffProps/commonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Primoss"]/deepCommonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Primoss"]/deepLumpSizeRange</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Primoss"]/stuffProps/categories</xpath>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Primoss"]/tradeability</xpath>
+			<value>
+				<tradeability>None</tradeability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MineablePrimoss"]/building</xpath>
+			<value>
+				<building>
+					<isNaturalRock>false</isNaturalRock>
+					<claimable>false</claimable>
+				</building>
+			</value>
+		</Operation>
+    </caseFalse>
+</Operation>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>DragonsOresOriginal</modId>
+    <key>ToggleSmarat</key>
+    <defaultValue>true</defaultValue>
+    <caseFalse>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Smarat"]/statBases/MarketValue</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Smarat"]/stuffProps/commonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Smarat"]/deepCommonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Smarat"]/deepLumpSizeRange</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Smarat"]/stuffProps/categories</xpath>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Smarat"]/tradeability</xpath>
+			<value>
+				<tradeability>None</tradeability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MineableSmarat"]/building</xpath>
+			<value>
+				<building>
+					<isNaturalRock>false</isNaturalRock>
+					<claimable>false</claimable>
+				</building>
+			</value>
+		</Operation>
+    </caseFalse>
+</Operation>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>DragonsOresOriginal</modId>
+    <key>ToggleVulcanite</key>
+    <defaultValue>true</defaultValue>
+    <caseFalse>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Vulcanite"]/statBases/MarketValue</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Vulcanite"]/stuffProps/commonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Vulcanite"]/deepCommonality</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Vulcanite"]/deepLumpSizeRange</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Vulcanite"]/stuffProps/categories</xpath>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Vulcanite"]/tradeability</xpath>
+			<value>
+				<tradeability>None</tradeability>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MineableVulcanite"]/building</xpath>
+			<value>
+				<building>
+					<isNaturalRock>false</isNaturalRock>
+					<claimable>false</claimable>
+				</building>
+			</value>
+		</Operation>
+    </caseFalse>
+</Operation>
+
+
+
+
+
+
+</Patch>

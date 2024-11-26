@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <!--============================ Ambut ===============================-->
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableAmbut</defName>
+    <label>ambut ore</label>
+    <description>Rock containing bits of ambut.
+
+A material that is well used on blunt weapons, as it has the capability of extending any kind of force into whatever it colides with. This effect makes it terrible for protecting yourself agains sharp attacks, but somehow still good agains blunt attacks. It is believed, that the material will redirect any incomming blunt force around the user, dispersing it throughout the armor.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(180,90,16)</color> <!--#b45a10-->
+      <colorTwo>(237,97,9)</colorTwo> <!--#ed6109-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2250</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Ambut</mineableThing>
+      <mineableYield>28</mineableYield>
+      <mineableScatterCommonality>0.03</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>8~22</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <!--============================ Cryolium ===============================-->
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableCryolium</defName>
+    <label>cryolium ore</label>
+    <description>Rock containing bits of cryolium.
+
+An unstable metal, that when put under enough stress will explode into a cooling foam material, which can be utilized in a pinch to put out fires. When processed into armor, the material offers the wearer excellent heat insulation, but also makes it a poor choice in colder climates. The material also provides excellent heat damage resistance.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(15,116,160)</color> <!--#0f74a0-->
+      <colorTwo>(29,153,210)</colorTwo> <!--#1d99d2-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2400</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Cryolium</mineableThing>
+      <mineableYield>36</mineableYield>
+      <mineableScatterCommonality>0.07</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>16~30</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <!--============================ Cryppo ===============================-->
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableCryppo</defName>
+    <label>cryppo ore</label>
+    <description>Rock containing bits of cryppo.
+
+A metal that is cool to the touch, and can be turned into very sharp weapons that never lose their edge.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(16,163,158)</color> <!--#10a39e-->
+      <colorTwo>(55,169,165)</colorTwo> <!--#37a9a5-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>4600</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Cryppo</mineableThing>
+      <mineableYield>42</mineableYield>
+      <mineableScatterCommonality>0.12</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>16~38</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <!--============================ Hydrotherium ===============================-->
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableHydrotherium</defName>
+    <label>hydrotherium ore</label>
+    <description>Rock containing bits of hydrotherium.
+
+Hydrotherium has a sometimes useful ability to soak up moisture from the air, providing armor made out of this material decent cooling capabilities. Though the wet surface makes this material good for making doors, it also makes it harder to work with. The wet properties makes it a sought after ore, and therefor also quite expensive.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(43,45,162)</color> <!--#2b2da2-->
+      <colorTwo>(105,114,212)</colorTwo> <!--#6972d4-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2150</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Hydrotherium</mineableThing>
+      <mineableYield>36</mineableYield>
+      <mineableScatterCommonality>0.07</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>16~30</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <!--============================ Loveli ===============================-->
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableLoveli</defName>
+    <label>loveli ore</label>
+    <description>Rock containing bits of loveli.
+
+Named so because of its odd nature into captivating its onlookers. This makes it ideal for any kind of artwork, and it is said that sleeping in a bed made out of Loveli is an otherworldly experience. As its name implies, Loveli is not well suited for combat, but is quite valuable. Even craftsmen have found a profound love for the material, as it is also easy to work with.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(133,26,133)</color> <!--#851a85-->
+      <colorTwo>(154,17,154)</colorTwo> <!--#9a119a-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Loveli</mineableThing>
+      <mineableYield>69</mineableYield>
+      <mineableScatterCommonality>0.01</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>4~32</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <!--============================ Luxorium ===============================-->
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableLuxorium</defName>
+    <label>luxorium ore</label>
+    <description>Rock containing bits of luxorium.
+
+Only the rich and wealthy can usually afford this rare material, making it a sought after material. Luxorium excels in the creation of beautiful artwork, but it doesn't want to stay together, making it difficult to work with. Luxorium is not well suited for warfare, but it does have a heat emitting capability that makes it useful in protecting yourself against the cold.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(170,172,0)</color> <!--#aaac00-->
+      <colorTwo>(217,220,14)</colorTwo> <!--#d9dc0e-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1100</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Luxorium</mineableThing>
+      <mineableYield>58</mineableYield>
+      <mineableScatterCommonality>0.02</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>6~36</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <!--============================ Mythil ===============================-->
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableMythil</defName>
+    <label>mythil ore</label>
+    <description>Rock containing bits of mythil.
+
+Deriving its name from the legendary material "Mithril", Mythil is excellent when used for protection agains sharp attacks, as well as being used for sharp weapons. Its light weight also allows a user to better swing any weapon made out of this material, but also makes it less ideal for blunt weapons and blunt weapon protection.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(156,153,160)</color> <!--#9c99a0-->
+      <colorTwo>(198,200,212)</colorTwo> <!--#c6c8d4-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>3400</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Mythil</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.12</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>12~16</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <!--============================ Penumbrite ===============================-->
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineablePenumbrite</defName>
+    <label>penumbrite ore</label>
+    <description>Rock containing bits of penumbrite.
+
+A very heavy and dark metal, Penumbrite is extremely durable, but for some reason doesn't protect the user that well when used as armor material. Scientist are unsure, but it seems like the material "sucks in" things around it, allowing an attacker to bypass this otherwise solid material. This effect makes it a decent material for use in weapons. Because of its sturdiness, Penumbrite is hard to shape, and its heavy weight makes it a bad choice for anything that needs to move.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(36,36,36)</color> <!--#242424-->
+      <colorTwo>(92,92,92)</colorTwo> <!--#5c5c5c-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>5000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Penumbrite</mineableThing>
+      <mineableYield>46</mineableYield>
+      <mineableScatterCommonality>0.2</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>20~34</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <!--============================ Primoss ===============================-->
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineablePrimoss</defName>
+    <label>primoss ore</label>
+    <description>Rock containing bits of primoss.
+
+Primoss is pretty average for any kind of application, and slightly more sturdy than the average metal. The metal is named so for its color, and its average capabilities.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(41,122,68)</color> <!--#297a44-->
+      <colorTwo>(14,168,67)</colorTwo> <!--#0ea843-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2600</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Primoss</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.12</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>26~34</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <!--============================ Smarat ===============================-->
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableSmarat</defName>
+    <label>smarat ore</label>
+    <description>Rock containing bits of smarat.
+
+A jade green metal, that is very rare, and best suited for decorative items or trade trinkets.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(1,140,100)</color> <!--#018c64-->
+      <colorTwo>(21,217,161)</colorTwo> <!--#15d9a1-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1800</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Smarat</mineableThing>
+      <mineableYield>22</mineableYield>
+      <mineableScatterCommonality>0.03</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>8~22</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <!--============================ Vulcanite ===============================-->
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableVulcanite</defName>
+    <label>vulcanite ore</label>
+    <description>Rock containing bits of vulcanite.
+
+An unstable metal that is hot to the touch, and will explode if put under too much stress, creating a flaming explosion. Vulcanite provides exceptional cold insulation, and also protects the wearer from blunt attacks, just remember to cool yourself down while wearing it.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(151,50,16)</color> <!--#973210-->
+      <colorTwo>(109,43,21)</colorTwo> <!--#6d2b15-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2400</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Vulcanite</mineableThing>
+      <mineableYield>36</mineableYield>
+      <mineableScatterCommonality>0.07</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>16~30</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+</Defs>
